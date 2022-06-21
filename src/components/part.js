@@ -1,11 +1,13 @@
 function Part(props) {
-let {name, desribtion, pic, phrase} = props;
+let {id,name,status,species,gender,image} = props;
     return(
         <div>
+            <h1>{id}</h1>
             <h2>{name}</h2>
-            <img src={pic} alt=""/>
-            <p>{desribtion}</p>
-            <p>{phrase}</p>
+            <img src={image} alt=""/>
+            <p>{status}</p>
+            <p>{gender}</p>
+            <p>{species}</p>
         </div>
     )
 

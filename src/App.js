@@ -5,19 +5,54 @@ function App() {
   return (
     <div >
 <Part
-      name={'Homer'}
-      pic={'https://static.wikia.nocookie.net/simpsons/images/b/bd/Homer_Simpson.png'}
-        desribtion={'Homer Jay Simpson (born May 12, 1956)[36] is the main protagonist ' +
-        'of The Simpsons series (or show) ' +
-        'He is the spouse of Marge Simpson and father of Bart,' +
-        ' Lisa and Maggie Simpson. Homer is overweight (said to be ~240 pounds), lazy,' +
-        ' and often ignorant to the world around him. Although Homer has many flaws,' +
-        ' he has shown to have great caring, love, and even bravery to those he cares about and, ' +
-        'sometimes, even others he doesn\'t.' +
-        ' He also serves as the main protagonist of the The Simpsons Movie'}
-    phrase={'“D\'oh!”\n' +
-        '―Homer when he makes a mistake.'}
+      id={17}
+      name={'Annie'}
+      image={'https://rickandmortyapi.com/api/character/avatar/17.jpeg'}
+      status={'Alive'}
+      gender={"Female"}
+      species={"Human"}
 />
+        <Part
+            id={50}
+            name={'Blim Blam'}
+            image={'https://rickandmortyapi.com/api/character/avatar/50.jpeg'}
+            status={'Alive'}
+            gender={"Male"}
+            species={"Alien"}
+        />
+        <Part
+            id={50}
+            name={'Anchorwoman'}
+            image={'https://rickandmortyapi.com/api/character/avatar/511.jpeg'}
+            status={'Alive'}
+            gender={"Female"}
+            species={"Human"}
+        />
+        <Part
+            id={632}
+            name={'Train Cop'}
+            image={'https://rickandmortyapi.com/api/character/avatar/632.jpeg'}
+            status={'Dead'}
+            gender={"Male"}
+            species={"Human"}
+        />
+        <Part
+            id={650}
+            name={'Crystal Dealer'}
+            image={'https://rickandmortyapi.com/api/character/avatar/650.jpeg'}
+            status={'Dead'}
+            gender={"Male"}
+            species={"Alien"}
+        />
+        <Part
+            id={673}
+            name={'Hoovy'}
+            image={'https://rickandmortyapi.com/api/character/avatar/673.jpeg'}
+            status={'Dead'}
+            gender={"Male"}
+            species={"Humanoid"}
+        />
+
 
     </div>);
 }
