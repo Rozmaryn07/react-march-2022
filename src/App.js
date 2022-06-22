@@ -1,11 +1,8 @@
 import './App.css';
-// eslint-disable-next-line no-unused-vars
-function App() {
-  return (
-    <div >
-
-
+import Users from "./components/Users";
+export default function App() {
+  return (<div >
+      <Users/>
     </div>);
 }
 
-export default App;
