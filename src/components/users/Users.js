@@ -1,8 +1,9 @@
-export default function Users({item}) {
+export default function Users({item, details}) {
   return (<div >
 
-      <h2>{item.page}</h2>
-      <div>{item.support.text}</div>
+      <h3>{item.id}</h3>
+      <div>{item.first_name}</div>
+      <button onClick={() => details(item)}>details</button>
 
     </div>);
 }
