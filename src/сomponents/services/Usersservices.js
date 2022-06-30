@@ -4,5 +4,5 @@ const axIns = axios.create({
     headers:{'Content-type': 'application/json; charset=UTF-8'}
 
 });
-const postuser=()=>axIns.post().then(response => response);
+const postuser=(obj)=>axIns.post(obj).then(response => response);
 export {postuser}
