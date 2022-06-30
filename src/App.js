@@ -23,7 +23,8 @@ export default function App() {
 
   });
 
-  const submit = (obj) => {console.log(obj);
+  const submit = (obj) => {
+    console.log(obj);
     postcoment().then(result => console.log(result));
   };
 
