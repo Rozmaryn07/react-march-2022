@@ -1,12 +1,24 @@
-import Cars from "./components/cars/Cars";
+import React, {Component} from 'react';
+import Posts from "./components/Posts";
 
-function App() {
-  return (
-    <div >
+class App extends Component {
+    constructor(props) {
+        super(props);
 
-      <Cars/>
+    }
 
-    </div>);
+
+    render() {
+    return (
+        <div>
+          <Posts/>
+        </div>
+    );
+  }
 }
 
 export default App;
+
+
+// отримати пости та вивести їх використовуючи класові копмоненти
+// отримати коментарі та вивести їх використовуючи класові копмоненти
